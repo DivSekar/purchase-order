@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Purchase Order" max_length="40" name="x_300953_purchaseo_purchase_order" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="u_category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Category 1" sequence="0" value="category1"/>
+                <element inactive="true" inactive_on_update="true" label="Project" sequence="0" value="project"/>
+                <element inactive_on_update="false" label="Category 2" sequence="1" value="category2"/>
+                <element inactive="true" inactive_on_update="true" label="IT Run Cost" sequence="1" value="itrc"/>
+                <element inactive_on_update="false" label="Category 3" sequence="2" value="category3"/>
+            </choice>
+        </element>
+        <element label="New File Attachment" mandatory="true" max_length="40" name="u_file_attachment_10" type="file_attachment"/>
+        <element label="IT Planning Number" max_length="40" name="u_it_planning_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Has legal sign off been received?" mandatory="true" max_length="40" name="u_legal_sign_off" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="Legal Sign Off" mandatory="true" max_length="40" name="u_legal_sign_off_attachment" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Nature of Cost" mandatory="true" max_length="40" name="u_nature_of_cost" type="string">
+            <choice>
+                <element inactive_on_update="false" label="IT Expense" sequence="0" value="itexp"/>
+                <element inactive_on_update="false" label="Not an IT Expense" sequence="1" value="noitexp"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="Paid Amount" mandatory="true" max_length="20" name="u_paid" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Reason" mandatory="true" max_length="40" name="u_reason" type="string"/>
+        <element attributes="omit_sys_original=true" label="Remaining Amount" max_length="20" name="u_remaining_amount" read_only="true" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Requisition Type" mandatory="true" max_length="40" name="u_requisition_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Project" sequence="0" value="project"/>
+                <element inactive_on_update="false" label="IT Run Cost" sequence="1" value="itrc"/>
+            </choice>
+        </element>
+        <element label="SOW Attachment" mandatory="true" max_length="40" name="u_sow_attachment" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is SOW required?" mandatory="true" max_length="40" name="u_sow_required" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Has SOW been signed?" mandatory="true" max_length="40" name="u_sow_signed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="Total Amount" mandatory="true" max_length="20" name="u_total_amount" type="currency"/>
+    </element>
+</database>

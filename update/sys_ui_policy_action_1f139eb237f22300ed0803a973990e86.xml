@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_sow_signed</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-08 11:15:26</sys_created_on>
+        <sys_id>1f139eb237f22300ed0803a973990e86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_sow_signed</sys_name>
+        <sys_package display_value="PurchaseOrder" source="x_300953_purchaseo">d53254ee37ba2300ed0803a973990e5f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PurchaseOrder">d53254ee37ba2300ed0803a973990e5f</sys_scope>
+        <sys_update_name>sys_ui_policy_action_1f139eb237f22300ed0803a973990e86</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-08 11:15:26</sys_updated_on>
+        <table>x_300953_purchaseo_purchase_order</table>
+        <ui_policy display_value="Show or Hide 'Has SOW been signed?' field">67c2dab237f22300ed0803a973990e7b</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

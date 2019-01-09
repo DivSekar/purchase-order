@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="3081e5b637722300ed0803a973990e63" sys_domain="global" table="x_300953_purchaseo_purchase_order" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-08 07:38:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f081e5b637722300ed0803a973990e66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_300953_purchaseo_purchase_order" name="x_300953_purchaseo_purchase_order" sys_domain="global" view="Default view">3081e5b637722300ed0803a973990e63</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_300953_purchaseo_purchase_order" sys_domain="global" view="Default view">b698013a37322300ed0803a973990e62</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-08 07:38:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-08 07:38:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc81e5b637722300ed0803a973990e66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_300953_purchaseo_purchase_order" name="x_300953_purchaseo_purchase_order" sys_domain="global" view="Default view">3081e5b637722300ed0803a973990e63</sys_ui_form>
+            <sys_ui_section caption="Legal" display_value="Legal" name="x_300953_purchaseo_purchase_order" sys_domain="global" view="Default view">fc81e5b637722300ed0803a973990e60</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-08 07:38:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-08 07:38:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f881e5b637722300ed0803a973990e6a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_300953_purchaseo_purchase_order" name="x_300953_purchaseo_purchase_order" sys_domain="global" view="Default view">3081e5b637722300ed0803a973990e63</sys_ui_form>
+            <sys_ui_section caption="SOW" display_value="SOW" name="x_300953_purchaseo_purchase_order" sys_domain="global" view="Default view">f881e5b637722300ed0803a973990e61</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-08 07:38:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-08 07:38:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f081e5b637722300ed0803a973990e6e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_300953_purchaseo_purchase_order" name="x_300953_purchaseo_purchase_order" sys_domain="global" view="Default view">3081e5b637722300ed0803a973990e63</sys_ui_form>
+            <sys_ui_section caption="Cost" display_value="Cost" name="x_300953_purchaseo_purchase_order" sys_domain="global" view="Default view">f081e5b637722300ed0803a973990e62</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-08 07:38:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_300953_purchaseo_purchase_order</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-08 07:38:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3081e5b637722300ed0803a973990e63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_300953_purchaseo_purchase_order</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="PurchaseOrder" source="x_300953_purchaseo">d53254ee37ba2300ed0803a973990e5f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PurchaseOrder">d53254ee37ba2300ed0803a973990e5f</sys_scope>
+            <sys_update_name>sys_ui_form_sections_3081e5b637722300ed0803a973990e63</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-08 07:38:09</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
